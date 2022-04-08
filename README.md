@@ -7,7 +7,7 @@ TypeScript是JavaScript的一个超集，强类型的定义。
 注意：TypeScript无法在浏览器中运行，需要借助编译器将TS转为JS(命令：tsc ts文件名)
 
 # 开发环境配置
-- 官网地址[https://www.typescriptlang.org/]
+- [官网地址](https://www.typescriptlang.org/)
 - 安装node.js, node -v查看node版本，查看node是否安装成功，出现版本号说明安装成功
 - 全局安装TypeScript编译器 npm install -g typescript, tsc -v查看TypeScript版本，出现版本号说明安装成功
 - 代码编辑器，自己选择，我选择的是vscode，他支持TypeScript的语法，以后缀.ts结尾表示TypeScript的文件格式；文件名.ts
@@ -25,4 +25,6 @@ TypeScript是JavaScript的一个超集，强类型的定义。
 
 # ts基本类型
 - `number` 数字类型，可以表示整数、浮点数以及正负数
-  `let num : number = 1;`
+  ```javascript
+  let num : number = 1;
+  ```
