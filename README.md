@@ -63,9 +63,9 @@ TypeScript是JavaScript的一个超集，强类型的定义。
   let randomValue : any = 666;
   randomValue = "string";
   ```
-- `unkown` 未知类型，不保证类型但是能保证类型安全，看代码[unknown](./unknown.ts)
+- `unknown` 未知类型，不保证类型但是能保证类型安全，看代码[unknown](./unknown.ts)
   ```javascript
-  let randomValue : unkown = 666;
+  let randomValue : unknown = 666;
   ```
 - `void` 不存在，函数没有返回值的时候为void类型
   ```javascript
